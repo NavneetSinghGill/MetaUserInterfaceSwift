@@ -11,7 +11,7 @@ import SwiftUI
 struct UserInterfaceSwiftNavneetApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

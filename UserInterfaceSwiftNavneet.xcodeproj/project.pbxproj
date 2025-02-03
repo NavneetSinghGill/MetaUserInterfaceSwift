@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E913D8832D4F3617005B3485 /* LocationsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E913D8822D4F360C005B3485 /* LocationsViewViewModel.swift */; };
+		E97A48B72D4F2DA6008EDB57 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A48B62D4F2DA6008EDB57 /* LocationsView.swift */; };
+		E97A48E02D4F2F15008EDB57 /* LittleLemonLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A48DF2D4F2F0D008EDB57 /* LittleLemonLogo.swift */; };
+		E97A48E32D4F30AD008EDB57 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A48E22D4F30AB008EDB57 /* MainView.swift */; };
+		E9F0AC032D4F3BCE008BF382 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E913D87E2D4F355F005B3485 /* Locations.swift */; };
+		E9F0AC042D4F3BCE008BF382 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E913D8802D4F3578005B3485 /* Location.swift */; };
+		E9F0AC062D4F3CAF008BF382 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0AC052D4F3CAA008BF382 /* LocationView.swift */; };
+		E9F0AC332D4F4151008BF382 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0AC322D4F414F008BF382 /* ReservationView.swift */; };
+		E9F0AC352D4F4182008BF382 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F0AC342D4F417F008BF382 /* Reservation.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E97A48C22D4F2DA8008EDB57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +36,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E913D87E2D4F355F005B3485 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		E913D8802D4F3578005B3485 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		E913D8822D4F360C005B3485 /* LocationsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewViewModel.swift; sourceTree = "<group>"; };
 		E97A48B12D4F2DA6008EDB57 /* UserInterfaceSwiftNavneet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserInterfaceSwiftNavneet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97A48B62D4F2DA6008EDB57 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		E97A48C12D4F2DA8008EDB57 /* UserInterfaceSwiftNavneetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserInterfaceSwiftNavneetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97A48CB2D4F2DA8008EDB57 /* UserInterfaceSwiftNavneetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserInterfaceSwiftNavneetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97A48DF2D4F2F0D008EDB57 /* LittleLemonLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonLogo.swift; sourceTree = "<group>"; };
+		E97A48E22D4F30AB008EDB57 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E9F0AC052D4F3CAA008BF382 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		E9F0AC322D4F414F008BF382 /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
+		E9F0AC342D4F417F008BF382 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -62,11 +83,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E913D87F2D4F356F005B3485 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E913D8802D4F3578005B3485 /* Location.swift */,
+				E9F0AC342D4F417F008BF382 /* Reservation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E913D8812D4F35FF005B3485 /* LocationsView */ = {
+			isa = PBXGroup;
+			children = (
+				E97A48B62D4F2DA6008EDB57 /* LocationsView.swift */,
+				E9F0AC052D4F3CAA008BF382 /* LocationView.swift */,
+				E913D8822D4F360C005B3485 /* LocationsViewViewModel.swift */,
+			);
+			path = LocationsView;
+			sourceTree = "<group>";
+		};
 		E97A48A82D4F2DA6008EDB57 = {
 			isa = PBXGroup;
 			children = (
 				E97A48B32D4F2DA6008EDB57 /* UserInterfaceSwiftNavneet */,
 				E97A48B22D4F2DA6008EDB57 /* Products */,
+				E97A48E12D4F3047008EDB57 /* Data */,
+				E913D87F2D4F356F005B3485 /* Models */,
+				E97A48DE2D4F2E5E008EDB57 /* Views */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +121,33 @@
 				E97A48CB2D4F2DA8008EDB57 /* UserInterfaceSwiftNavneetUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E97A48DE2D4F2E5E008EDB57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0AC312D4F413F008BF382 /* ReservationView */,
+				E913D8812D4F35FF005B3485 /* LocationsView */,
+				E97A48E22D4F30AB008EDB57 /* MainView.swift */,
+				E97A48DF2D4F2F0D008EDB57 /* LittleLemonLogo.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E97A48E12D4F3047008EDB57 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E913D87E2D4F355F005B3485 /* Locations.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E9F0AC312D4F413F008BF382 /* ReservationView */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0AC322D4F414F008BF382 /* ReservationView.swift */,
+			);
+			path = ReservationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F0AC032D4F3BCE008BF382 /* Locations.swift in Sources */,
+				E9F0AC332D4F4151008BF382 /* ReservationView.swift in Sources */,
+				E9F0AC352D4F4182008BF382 /* Reservation.swift in Sources */,
+				E9F0AC062D4F3CAF008BF382 /* LocationView.swift in Sources */,
+				E9F0AC042D4F3BCE008BF382 /* Location.swift in Sources */,
+				E97A48B72D4F2DA6008EDB57 /* LocationsView.swift in Sources */,
+				E97A48E32D4F30AD008EDB57 /* MainView.swift in Sources */,
+				E97A48E02D4F2F15008EDB57 /* LittleLemonLogo.swift in Sources */,
+				E913D8832D4F3617005B3485 /* LocationsViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
