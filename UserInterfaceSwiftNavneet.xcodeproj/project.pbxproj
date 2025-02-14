@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E913D8832D4F3617005B3485 /* LocationsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E913D8822D4F360C005B3485 /* LocationsViewViewModel.swift */; };
+		E93B34AA2D5077F000C885CF /* DataValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93B34A92D5077E900C885CF /* DataValidator.swift */; };
 		E97A48B72D4F2DA6008EDB57 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A48B62D4F2DA6008EDB57 /* LocationsView.swift */; };
 		E97A48E02D4F2F15008EDB57 /* LittleLemonLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A48DF2D4F2F0D008EDB57 /* LittleLemonLogo.swift */; };
 		E97A48E32D4F30AD008EDB57 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A48E22D4F30AB008EDB57 /* MainView.swift */; };
@@ -39,6 +40,7 @@
 		E913D87E2D4F355F005B3485 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		E913D8802D4F3578005B3485 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		E913D8822D4F360C005B3485 /* LocationsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewViewModel.swift; sourceTree = "<group>"; };
+		E93B34A92D5077E900C885CF /* DataValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataValidator.swift; sourceTree = "<group>"; };
 		E97A48B12D4F2DA6008EDB57 /* UserInterfaceSwiftNavneet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserInterfaceSwiftNavneet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97A48B62D4F2DA6008EDB57 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		E97A48C12D4F2DA8008EDB57 /* UserInterfaceSwiftNavneetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserInterfaceSwiftNavneetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				E9F0AC322D4F414F008BF382 /* ReservationView.swift */,
+				E93B34A92D5077E900C885CF /* DataValidator.swift */,
 			);
 			path = ReservationView;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				E9F0AC042D4F3BCE008BF382 /* Location.swift in Sources */,
 				E97A48B72D4F2DA6008EDB57 /* LocationsView.swift in Sources */,
 				E97A48E32D4F30AD008EDB57 /* MainView.swift in Sources */,
+				E93B34AA2D5077F000C885CF /* DataValidator.swift in Sources */,
 				E97A48E02D4F2F15008EDB57 /* LittleLemonLogo.swift in Sources */,
 				E913D8832D4F3617005B3485 /* LocationsViewViewModel.swift in Sources */,
 			);
@@ -464,6 +468,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -492,6 +497,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

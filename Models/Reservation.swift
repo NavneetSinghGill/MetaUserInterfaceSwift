@@ -8,10 +8,12 @@
 import Foundation
 
 struct Reservation {
-    let location: Location
-    let time: Date
-    let name: String
-    let contactNumber: String
-    let email: String
-    let specialRequest: String? = nil
+    var location: Location?
+    var time: Date?
+    var name: String = ""
+    var phoneNumber: String = ""
+    var email: String = ""
+    var specialRequest: String = ""
+    
+    init() {}
 }

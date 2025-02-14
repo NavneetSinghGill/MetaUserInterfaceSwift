@@ -15,6 +15,7 @@ struct LocationView: View {
         VStack(alignment: .leading) {
             Text(location.city)
                 .font(.title)
+
             Text(location.location + " - " + location.contactNumber)
                 .font(.headline)
                 .fontWeight(.medium)
